@@ -21,9 +21,33 @@
   --gray-400: #878ea1;
   --gray-500: #c0c4ce;
   --gray-600: #e2e4e9;
+
+  /* Fonts */
+  --font-heading: "Asap", sans-serif;
+  --font-subtitle: "Inconsolata", sans-serif;
+  --font-content: "Maven Pro", sans-serif;
+
+  --title-lg: 700 56px/120% var(--font-heading);
+  --title-md: 700 24px/120% var(--font-heading);
+  --title-sm: 700 16px/120% var(--font-heading);
+  --subtitle: 400 20px/120% var(--font-subtitle);
+  --text-md: 400 16px/120% var(--font-content);
+  --text-sm: 400 14px/120% var(--font-content);
 }
 
 body {
   background-color: var(--background);
   color: var(--gray-400);
+  font: var(--text-md);
+}
+
+h1,
+h2,
+h3 {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
