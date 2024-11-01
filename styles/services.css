@@ -1,0 +1,28 @@
+#services {
+  background-color: var(--gray-100);
+  padding-block: 80px;
+}
+
+.services-wrapper {
+  display: grid;
+  margin-top: 56px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+
+  .service {
+    border: 2px solid var(--gray-200);
+    padding: 20px;
+    border-radius: 12px;
+
+    h3 {
+      font: var(--title-sm);
+      color: var(--gray-600);
+      margin-block: 20px 8px;
+    }
+
+    p {
+      font: var(--text-sm);
+      color: var(--gray-500);
+    }
+  }
+}
