@@ -12,8 +12,6 @@
   --green: #82bc4f;
   --yellow: #eabd5f;
 
-  --background: #29293e;
-
   /* Color Base */
   --gray-100: #0d0e11;
   --gray-200: #16181d;
@@ -36,7 +34,7 @@
 }
 
 body {
-  background-color: var(--background);
+  background-color: var(--gray-200);
   color: var(--gray-400);
   font: var(--text-md);
 }

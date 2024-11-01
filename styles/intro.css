@@ -43,6 +43,7 @@
 
     p {
       margin-top: 20px;
+      font: var(--text-sm);
     }
   }
 }
